@@ -1,7 +1,7 @@
 import { Contract, ElectrumNetworkProvider } from 'cashscript';
 import { decodeCashAddress } from '@bitauth/libauth';
 
-import MecenasArtifact from './contract/Mecenas.json';
+import MecenasArtifact from './contract/Mecenas.json' assert { type: 'json' };
 
 export function main() {
   const recipientAddress = 'bitcoincash:....';
