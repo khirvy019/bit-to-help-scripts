@@ -1,6 +1,7 @@
 {
   "type": "module",
   "dependencies": {
+    "axios": "^1.13.6",
     "cashc": "^0.12.1",
     "cashscript": "^0.12.1"
   }
