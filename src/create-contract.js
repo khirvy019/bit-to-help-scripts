@@ -9,7 +9,7 @@ export function main() {
   const period = 100;
   const amountBch = 10000 / 10 ** 8;
 
-  const contract = createContract(recipientAddress, period, amountBch);
+  const contract = createContract(recipientAddress, funderAddress, period, amountBch);
   console.log("Contract Address:", contract.address);
 }
 
